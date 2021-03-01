@@ -2,7 +2,7 @@
 
 ![](images/consul_262_5_top.jpg)
 
-Consul 265.5 is an eternal mechanical keyboard using hall-effect switches. The keyboard communicate via UART, so the input and output data is in serial format.
+Consul 262.5 is an eternal mechanical keyboard using hall-effect switches. The keyboard communicate via UART, so the input and output data is in serial format.
 The keyboard sends an ascii character to the output with following protocol: 
  - 1x start bit, 8x data bit, 2x stop bit
  - there is no parity
@@ -38,9 +38,11 @@ Pro Micro is connected via TX/RX pins and A9 as Clock signal:
 +-----------------------------------------+
 ```
 The connection schematics from the keyboard manual:
+
 ![Consul 262.5 Connection scheme](images/connection_manual.png)
 
 The pinouts on the PCB:
+
 ![Connection Detail](images/connection_detail.jpg)
 
 And some code:
